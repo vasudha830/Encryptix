@@ -16,7 +16,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import warnings
 warnings.filterwarnings('ignore')
 
-df = pd.read_csv("file:///Users/vasudhagarg/Downloads/IMDbMoviesIndia.csv", encoding='latin1')
+df = pd.read_csv("https://github.com/vasudha830/Encryptix/blob/main/IMDbMoviesIndia.csv", encoding='latin1')
 df.head()
 df.shape
 df.columns
