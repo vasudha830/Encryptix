@@ -17,7 +17,7 @@ from sklearn.model_selection import GridSearchCV
 for dirname, _, filenames in os.walk('/kaggle/input'):
     for filename in filenames:
         print(os.path.join(dirname, filename))
-raw=pd.read_csv('file:///Users/vasudhagarg/Downloads/Titanic-Dataset.csv')
+raw=pd.read_csv('https://github.com/vasudha830/Encryptix/blob/main/Titanic-Dataset.csv')
 # print(raw.sample(10))
 raw.info()
 raw['age']=raw['Age'].fillna(raw['Age'].mean())
