@@ -15,7 +15,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 import warnings
 warnings.filterwarnings("ignore")
-dataset = pd.read_csv('file:///Users/vasudhagarg/Downloads/IRIS.csv')
+dataset = pd.read_csv('https://github.com/vasudha830/Encryptix/blob/main/IRIS.csv')
 dataset
 species = dataset['species'].value_counts().reset_index()
 # print(species)
